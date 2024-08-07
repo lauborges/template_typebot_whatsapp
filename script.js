@@ -53,7 +53,7 @@ function criarBarra(var_nome, var_avatar) {
   const status = varStatus;
   
   const audioNot = document.createElement('audio');
-  audioNot.src = 'https://github.com/igorlemoes/template_typebot_whatsapp/raw/main/audio_whatsapp.mp3';
+  audioNot.src = 'https://github.com/lauborges/template_typebot_whatsapp/raw/main/audio_whatsapp.mp3';
   let mensagesLength = 0;
   
   setInterval(() => {
@@ -101,7 +101,7 @@ function criarBarra(var_nome, var_avatar) {
         link.id   = cssId;
         link.rel  = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://cdn.jsdelivr.net/gh/igorlemoes/template_typebot_whatsapp@0.0.2/style.css';
+        link.href = 'https://cdn.jsdelivr.net/gh/lauborges/template_typebot_whatsapp@0.0.2/style.css';
         link.media = 'all';
         head.appendChild(link);
     }
